@@ -1,0 +1,34 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Data files (raw SWITRS source data should not be committed)
+data/
+*.csv
+!requirements.txt
+
+# Spark output / temp files
+final_collisions/
+tableau_powerbi_collisions_export/
+*.crc
+_SUCCESS
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
